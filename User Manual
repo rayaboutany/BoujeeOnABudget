@@ -1,0 +1,35 @@
+Boujee on a Budget - User Manual
+
+1. Getting Started:
+
+    1.1 System Requirements:
+    Ensure you have Java installed on your system.
+    Double-click the application JAR file or run it through the command line.
+
+    1.2 Setting Up:
+    When the application starts, a dialog will prompt you to enter your monthly income and budget.
+    Enter your monthly income and budget in the respective fields and click "Set Budget."
+
+2. Expense Tracking:
+
+    2.1 Adding an Expense:
+    Once your budget is set, the main screen will appear.
+    Enter the name, amount, and category of your expense.
+    Select the category from the dropdown list (Food, Home, Work, Fun, Misc).
+    Click "Add Expense" to record your expense.
+
+    2.2 Viewing Expenses:
+    The table on the right displays your entered expenses, including name, amount, category, and date.
+
+3. Saving and Finishing:
+
+    3.1 Saving Expenses:
+    Click "Finish" when you have entered all your expenses.
+    Your expenses will be saved to a file named "all_expenses.csv."
+
+    3.2 Expense Summary:
+    An alert will show your expense summary, including total expenses, remaining budget, and a category breakdown.
+
+4. Tips:
+    -If you encounter an error or need assistance, alerts will guide you with instructions.
+    
