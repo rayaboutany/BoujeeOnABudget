@@ -1,0 +1,59 @@
+Boujee on a Budget - Implementation Manual
+
+1. Overview:
+
+    1.1 Purpose:
+    The "Boujee on a Budget" application is designed to help users track and manage their monthly expenses.
+
+    1.2 Technologies Used:
+    Java, JavaFX for the user interface.
+
+2. Structure and Design:
+
+    2.1 Classes:
+    BoujeeOnABudget: The main application class.
+    Expense: Represents an individual expense.
+
+    2.2 User Interface:
+    Implemented using JavaFX components - TextField, Button, TableView, etc.
+    Expenses are displayed in a table with columns for name, amount, category, and date.
+
+3. Functionality:
+
+    3.1 Budget Setting:
+    User's monthly income and budget are set through a dialog using TextInputControl.
+
+    3.2 Expense Entry:
+    Expenses are entered through the main UI.
+    A TableView is used to display and manage the entered expenses.
+
+    3.3 Data Persistence:
+    Expenses are saved to a CSV file (all_expenses.csv) using FileWriter.
+
+    3.4 Expense Summary:
+    A summary is displayed using Alert after the user clicks "Finish."
+    Includes total expenses, remaining budget, and category breakdown.
+
+4. Extensibility and Improvements:
+
+    4.1 Adding Features:
+    Additional features like expense editing, deletion, or graphical representation can be added.
+
+    4.2 Enhancements:
+    Consider graphical improvements for a more user-friendly experience.
+
+5. Troubleshooting:
+
+    5.1 Error Handling:
+    Alerts are used for error handling, notifying users of invalid inputs.
+
+    5.2 Exception Handling:
+    Appropriate exception handling is implemented, and stack traces are printed for debugging purposes.
+
+6. Maintenance:
+
+    6.1 Code Maintenance:
+    Regularly review and update the code for improvements and bug fixes.
+
+    6.2 File Maintenance:
+    Periodically review and clean up saved expense files.
