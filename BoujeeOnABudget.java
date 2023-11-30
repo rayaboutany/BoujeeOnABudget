@@ -192,8 +192,11 @@ public class BoujeeOnABudget extends Application {
         summaryText.append("Total Expenses: $").append(String.format("%.2f", totalExpenses)).append("\n");
     
         double income = Double.parseDouble(incomeField.getText());
+        double budget = Double.parseDouble(budgetField.getText());
         double remainingAmount = income - totalExpenses;
-        summaryText.append("Remaining Budget: $").append(String.format("%.2f", remainingAmount)).append("\n");
+        double remainingBudget = budget - totalExpenses;
+        summaryText.append("Remaining Income: $").append(String.format("%.2f", remainingAmount)).append("\n");
+        summaryText.append("Remaining Monthly Budget: $").append(String.format("%.2f", remainingBudget)).append("\n");
     
         // Append category breakdown to the summary text
         summaryText.append("\nCategory Breakdown:\n");
